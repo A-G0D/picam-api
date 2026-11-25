@@ -1,0 +1,7 @@
+# Python deps installed into the venv (see install.sh).
+# picamera2 + libcamera come from apt (python3-picamera2), NOT pip, and the
+# venv is created with --system-site-packages so they're visible.
+flask
+pillow
+numpy
+pyzbar

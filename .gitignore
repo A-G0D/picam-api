@@ -1,0 +1,59 @@
+# .gitignore for picam-api
+
+# --- dependencies and build output ---
+node_modules/
+dist/
+build/
+out/
+target/
+.next/
+.nuxt/
+.turbo/
+.parcel-cache/
+*.tsbuildinfo
+
+# --- python ---
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.tox/
+
+# --- os and editor ---
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+*.swp
+
+# --- credentials, never commit ---
+.env
+.env.*
+!.env.example
+!.env.template
+*.pem
+*.pfx
+*.key
+id_rsa*
+*.pat
+credentials.json
+.credentials.json
+cookies.json
+cookies*.json
+secrets.json
+secrets.yaml
+secrets.yml
+token.json
+
+# --- secret: credential material ---
+*.env
+config.json
+
+# --- picam-api specific ---
+data/
+sdcard-provision/provision_out.txt

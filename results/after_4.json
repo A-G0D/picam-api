@@ -1,0 +1,30 @@
+{
+  "machine": "Darwin arm64, Python 3.9.6",
+  "frame_size": [
+    640,
+    480
+  ],
+  "jpeg_quality": 85,
+  "capture_ms": {
+    "p50": 4.02,
+    "p95": 17.84,
+    "n": 300
+  },
+  "jpeg_encode_cold_ms": 4.66,
+  "stream": [
+    {
+      "clients": 1,
+      "total_fps": 5.8,
+      "cpu_ms_per_frame": 3.27
+    },
+    {
+      "clients": 4,
+      "total_fps": 23.2,
+      "cpu_ms_per_frame": 1.08
+    }
+  ],
+  "motion": {
+    "per_frame_us": 521.7,
+    "n": 1000
+  }
+}
